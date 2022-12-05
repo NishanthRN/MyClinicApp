@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.addPatient .addptn {
+    width: 70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    background-color: #edfff4;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1em;
+}
+
+/* .addptn h2 {
+    font-family: 'Signika';
+} */
+
+.addPatient .addptn .form1 {
+    margin: auto;
+    max-width: 100vw;
+    overflow-x: hidden;
+    width: 85%;
+
+}
+
+.addPatient .addptn .row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+
+.addPatient .addptn .input-left {
+    display: flex;
+}
+
+.addPatient .addptn .label1 {
+    padding-bottom: 2%;
+}
+
+.addPatient .addptn .input1 {
+    border-radius: 0.3rem;
+
+}
+
+.addPatient .buttonsubmit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.addPatient .sec1 textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-family: 'Roboto Slab', monospace;
+    border-radius: 0.5em;
+
+}
+
+.addPatient h2 {
+    margin-top: 1em;
+    font-family: 'Signika';
+    text-decoration: underline;
+    text-decoration-color: #A6D49F;
+}
+
+body {
+    background-color: #e6fbef;
+}
+
+.addPatient .addptn #addr {
+    align-items: center;
+    margin-left: 0;
+    border: 20px solid black;
+}
+
+.addPatient .addptn select {
+    border: 2px black solid;
+}
+
+.addPatient .prescription {
+    margin: 20px 70px 20px 70px;
+}

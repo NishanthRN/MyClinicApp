@@ -1,0 +1,104 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.navbar {
+  background-color: #A6D49F;
+  color: black;
+  padding: 15px 10px 15px 10px;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  margin: 0px 10px 0px 10px;
+}
+
+.inputleft {
+  padding: 20px 10px 20px 20px;
+}
+
+
+#addr {
+  align-items: center;
+  margin-left: 0;
+  border: 2px solid black;
+}
+
+.info .button {
+  background-color: red;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  margin: auto;
+  padding: 30px;
+  background-color: #EEFCF6;
+  font-weight: 500;
+  /* font-size: large; #e8fbe5*/
+}
+
+
+th {
+  font-weight: 600;
+  text-decoration: 2px underline #9bd592;
+  align-content: center;
+}
+
+.info .helpa p {
+  margin: 20px 10px 20px 20px;
+  text-align: center;
+  background-image: url("./images/ayd2.jpg");
+  background-color: #cccccc;
+
+}
+
+span {
+  color: red;
+  font-weight: 600;
+}
+
+.viewdb {
+  text-decoration: 2px underline #9bd592;
+}
+
+.searchbar {
+  margin: 20px 20px 20px 20px;
+}

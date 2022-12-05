@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.login .imgBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.login .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #ACECA1, #03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+
+.login .imgBx img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.login .contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.login .contentBx .formBx {
+    width: 50%;
+}
+
+.login .contentBx .formBx h2 {
+    color: #536c78;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #7FB069;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.login .contentBx .formBx p {
+    color: red;
+    font-weight: 500;
+    display: flexbox;
+    background-color: rgb(250, 197, 197);
+    align-content: center;
+    /* border: 2px solid red; */
+
+}
+
+.login .contentBx .formBx h1 {
+    color: #536c78;
+    font-weight: 600;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #7FB069;
+    display: flexbox;
+    letter-spacing: 1px;
+}
+
+.login .contentBx .formBx .inputBx {
+    margin-bottom: 20px;
+}
+
+.login .contentBx .formBx .inputBx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #536c78;
+    font-weight: 450;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.login .contentBx .formBx .inputBx input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.login .contentBx .formBx .inputBx input[type="submit"] {
+    background: #7FB069;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s;
+    padding: 1em 2em;
+    transition: all 0.25s;
+}
+
+.login .contentBx .formBx .inputBx input[type="submit"]:hover {
+    background: #CCF5AC;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #73A580;
+    transform: translateY(-0.25em);
+}
+
+.login .contentBx .formBx .remember {
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
